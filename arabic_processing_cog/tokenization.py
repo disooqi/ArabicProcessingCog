@@ -6,7 +6,7 @@ by disooqi
 '''
 
 
-class Arabic_tokenizer:
+class ArabicTokenizer:
     def __init__(self):
         pass
 
