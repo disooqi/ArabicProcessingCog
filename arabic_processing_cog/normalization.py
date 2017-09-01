@@ -107,6 +107,10 @@ class Arabic_normalization:
                 line = line.replace(ch, tempch)
             
         tokens = line.strip().split()
+
+        if config.ignore_oneword_line and len(tokens)==1:
+            return ''
+        
         terms = list()
         for token in tokens[:]:
             term = Arabic_normalization.normalize_token(token)
