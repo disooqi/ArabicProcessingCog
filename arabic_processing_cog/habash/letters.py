@@ -61,7 +61,7 @@ class Diacrtic:
 
 
 class ArabicScript:
-
+    # look at cp1256.py in python 3 module to learn how mapping really done
 
     HAMZA            = Letter(u'\u0621', u'\u0027', u'\u0027', u'\u0027', u'C', u'C')
     ALEF_MADDA       = Letter(u'\u0622', u'\u0100', u'\u007c', u'\u007c', u'M', u'M')
